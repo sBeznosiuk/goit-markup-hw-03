@@ -50,6 +50,11 @@ body {
 /* header */
 .page-header {
   background-color: #fff;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ececec;
+  border-width: 100%;
 }
 .main-nav {
   display: flex;
@@ -315,6 +320,7 @@ body {
 /* portfolio */
 .portfolio {
   padding-bottom: 94px;
+  padding-top: 100px;
 }
 .p-title {
   font-family: Roboto;
@@ -356,7 +362,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
   margin-bottom: 50px;
 }
 .p-buttons .button {
